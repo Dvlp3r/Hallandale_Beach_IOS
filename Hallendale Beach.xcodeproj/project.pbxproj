@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF4717E1CFE1E0200EAAA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */; };
+		ACF471801CFE1E0200EAAA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */; };
+		ACF471831CFE1E0200EAAA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF471811CFE1E0200EAAA22 /* Main.storyboard */; };
+		ACF471851CFE1E0200EAAA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF471841CFE1E0200EAAA22 /* Assets.xcassets */; };
+		ACF471881CFE1E0200EAAA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */; };
+		ACF471931CFE1E0200EAAA22 /* Hallendale_BeachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF471921CFE1E0200EAAA22 /* Hallendale_BeachTests.swift */; };
+		ACF4719E1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4719D1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF4718F1CFE1E0200EAAA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF471721CFE1E0200EAAA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF471791CFE1E0200EAAA22;
+			remoteInfo = "Hallendale Beach";
+		};
+		ACF4719A1CFE1E0200EAAA22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF471721CFE1E0200EAAA22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF471791CFE1E0200EAAA22;
+			remoteInfo = "Hallendale Beach";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF4717A1CFE1E0200EAAA22 /* Hallendale Beach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hallendale Beach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF471821CFE1E0200EAAA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF471841CFE1E0200EAAA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF471871CFE1E0200EAAA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF471891CFE1E0200EAAA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF4718E1CFE1E0200EAAA22 /* Hallendale BeachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hallendale BeachTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF471921CFE1E0200EAAA22 /* Hallendale_BeachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallendale_BeachTests.swift; sourceTree = "<group>"; };
+		ACF471941CFE1E0200EAAA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF471991CFE1E0200EAAA22 /* Hallendale BeachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hallendale BeachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4719D1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallendale_BeachUITests.swift; sourceTree = "<group>"; };
+		ACF4719F1CFE1E0200EAAA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF471771CFE1E0200EAAA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4718B1CFE1E0200EAAA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF471961CFE1E0200EAAA22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF471711CFE1E0200EAAA22 = {
+			isa = PBXGroup;
+			children = (
+				ACF4717C1CFE1E0200EAAA22 /* Hallendale Beach */,
+				ACF471911CFE1E0200EAAA22 /* Hallendale BeachTests */,
+				ACF4719C1CFE1E0200EAAA22 /* Hallendale BeachUITests */,
+				ACF4717B1CFE1E0200EAAA22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF4717B1CFE1E0200EAAA22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4717A1CFE1E0200EAAA22 /* Hallendale Beach.app */,
+				ACF4718E1CFE1E0200EAAA22 /* Hallendale BeachTests.xctest */,
+				ACF471991CFE1E0200EAAA22 /* Hallendale BeachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF4717C1CFE1E0200EAAA22 /* Hallendale Beach */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */,
+				ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */,
+				ACF471811CFE1E0200EAAA22 /* Main.storyboard */,
+				ACF471841CFE1E0200EAAA22 /* Assets.xcassets */,
+				ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */,
+				ACF471891CFE1E0200EAAA22 /* Info.plist */,
+			);
+			path = "Hallendale Beach";
+			sourceTree = "<group>";
+		};
+		ACF471911CFE1E0200EAAA22 /* Hallendale BeachTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF471921CFE1E0200EAAA22 /* Hallendale_BeachTests.swift */,
+				ACF471941CFE1E0200EAAA22 /* Info.plist */,
+			);
+			path = "Hallendale BeachTests";
+			sourceTree = "<group>";
+		};
+		ACF4719C1CFE1E0200EAAA22 /* Hallendale BeachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4719D1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift */,
+				ACF4719F1CFE1E0200EAAA22 /* Info.plist */,
+			);
+			path = "Hallendale BeachUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF471791CFE1E0200EAAA22 /* Hallendale Beach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF471A21CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale Beach" */;
+			buildPhases = (
+				ACF471761CFE1E0200EAAA22 /* Sources */,
+				ACF471771CFE1E0200EAAA22 /* Frameworks */,
+				ACF471781CFE1E0200EAAA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hallendale Beach";
+			productName = "Hallendale Beach";
+			productReference = ACF4717A1CFE1E0200EAAA22 /* Hallendale Beach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF4718D1CFE1E0200EAAA22 /* Hallendale BeachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF471A51CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachTests" */;
+			buildPhases = (
+				ACF4718A1CFE1E0200EAAA22 /* Sources */,
+				ACF4718B1CFE1E0200EAAA22 /* Frameworks */,
+				ACF4718C1CFE1E0200EAAA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF471901CFE1E0200EAAA22 /* PBXTargetDependency */,
+			);
+			name = "Hallendale BeachTests";
+			productName = "Hallendale BeachTests";
+			productReference = ACF4718E1CFE1E0200EAAA22 /* Hallendale BeachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF471981CFE1E0200EAAA22 /* Hallendale BeachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF471A81CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachUITests" */;
+			buildPhases = (
+				ACF471951CFE1E0200EAAA22 /* Sources */,
+				ACF471961CFE1E0200EAAA22 /* Frameworks */,
+				ACF471971CFE1E0200EAAA22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF4719B1CFE1E0200EAAA22 /* PBXTargetDependency */,
+			);
+			name = "Hallendale BeachUITests";
+			productName = "Hallendale BeachUITests";
+			productReference = ACF471991CFE1E0200EAAA22 /* Hallendale BeachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF471721CFE1E0200EAAA22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Soccer5;
+				TargetAttributes = {
+					ACF471791CFE1E0200EAAA22 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ACF4718D1CFE1E0200EAAA22 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ACF471791CFE1E0200EAAA22;
+					};
+					ACF471981CFE1E0200EAAA22 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ACF471791CFE1E0200EAAA22;
+					};
+				};
+			};
+			buildConfigurationList = ACF471751CFE1E0200EAAA22 /* Build configuration list for PBXProject "Hallendale Beach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF471711CFE1E0200EAAA22;
+			productRefGroup = ACF4717B1CFE1E0200EAAA22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF471791CFE1E0200EAAA22 /* Hallendale Beach */,
+				ACF4718D1CFE1E0200EAAA22 /* Hallendale BeachTests */,
+				ACF471981CFE1E0200EAAA22 /* Hallendale BeachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF471781CFE1E0200EAAA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF471881CFE1E0200EAAA22 /* LaunchScreen.storyboard in Resources */,
+				ACF471851CFE1E0200EAAA22 /* Assets.xcassets in Resources */,
+				ACF471831CFE1E0200EAAA22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4718C1CFE1E0200EAAA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF471971CFE1E0200EAAA22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF471761CFE1E0200EAAA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF471801CFE1E0200EAAA22 /* ViewController.swift in Sources */,
+				ACF4717E1CFE1E0200EAAA22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4718A1CFE1E0200EAAA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF471931CFE1E0200EAAA22 /* Hallendale_BeachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF471951CFE1E0200EAAA22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4719E1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF471901CFE1E0200EAAA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF471791CFE1E0200EAAA22 /* Hallendale Beach */;
+			targetProxy = ACF4718F1CFE1E0200EAAA22 /* PBXContainerItemProxy */;
+		};
+		ACF4719B1CFE1E0200EAAA22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF471791CFE1E0200EAAA22 /* Hallendale Beach */;
+			targetProxy = ACF4719A1CFE1E0200EAAA22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF471811CFE1E0200EAAA22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF471821CFE1E0200EAAA22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF471871CFE1E0200EAAA22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF471A01CFE1E0200EAAA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF471A11CFE1E0200EAAA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF471A31CFE1E0200EAAA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hallendale Beach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-Beach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACF471A41CFE1E0200EAAA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hallendale Beach/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-Beach";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACF471A61CFE1E0200EAAA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hallendale BeachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-BeachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hallendale Beach.app/Hallendale Beach";
+			};
+			name = Debug;
+		};
+		ACF471A71CFE1E0200EAAA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hallendale BeachTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-BeachTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hallendale Beach.app/Hallendale Beach";
+			};
+			name = Release;
+		};
+		ACF471A91CFE1E0200EAAA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hallendale BeachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-BeachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hallendale Beach";
+			};
+			name = Debug;
+		};
+		ACF471AA1CFE1E0200EAAA22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hallendale BeachUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.soccer5.Hallendale-BeachUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hallendale Beach";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF471751CFE1E0200EAAA22 /* Build configuration list for PBXProject "Hallendale Beach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF471A01CFE1E0200EAAA22 /* Debug */,
+				ACF471A11CFE1E0200EAAA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF471A21CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale Beach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF471A31CFE1E0200EAAA22 /* Debug */,
+				ACF471A41CFE1E0200EAAA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF471A51CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF471A61CFE1E0200EAAA22 /* Debug */,
+				ACF471A71CFE1E0200EAAA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF471A81CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF471A91CFE1E0200EAAA22 /* Debug */,
+				ACF471AA1CFE1E0200EAAA22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF471721CFE1E0200EAAA22 /* Project object */;
+}
