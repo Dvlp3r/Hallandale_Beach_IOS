@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		ACF4717E1CFE1E0200EAAA22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */; };
-		ACF471801CFE1E0200EAAA22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */; };
+		ACF471801CFE1E0200EAAA22 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4717F1CFE1E0200EAAA22 /* LaunchViewController.swift */; };
 		ACF471831CFE1E0200EAAA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF471811CFE1E0200EAAA22 /* Main.storyboard */; };
 		ACF471851CFE1E0200EAAA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF471841CFE1E0200EAAA22 /* Assets.xcassets */; };
 		ACF471881CFE1E0200EAAA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */; };
 		ACF471931CFE1E0200EAAA22 /* Hallendale_BeachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF471921CFE1E0200EAAA22 /* Hallendale_BeachTests.swift */; };
 		ACF4719E1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4719D1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift */; };
+		ACF471AF1CFE4AC900EAAA22 /* LaunchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF471AE1CFE4AC900EAAA22 /* LaunchTableViewCell.swift */; };
+		ACF471B21CFE4D8100EAAA22 /* CellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF471B11CFE4D8100EAAA22 /* CellInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		ACF4717A1CFE1E0200EAAA22 /* Hallendale Beach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hallendale Beach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF4717F1CFE1E0200EAAA22 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		ACF471821CFE1E0200EAAA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF471841CFE1E0200EAAA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF471871CFE1E0200EAAA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		ACF471991CFE1E0200EAAA22 /* Hallendale BeachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hallendale BeachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF4719D1CFE1E0200EAAA22 /* Hallendale_BeachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hallendale_BeachUITests.swift; sourceTree = "<group>"; };
 		ACF4719F1CFE1E0200EAAA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF471AE1CFE4AC900EAAA22 /* LaunchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchTableViewCell.swift; sourceTree = "<group>"; };
+		ACF471B11CFE4D8100EAAA22 /* CellInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,11 @@
 		ACF4717C1CFE1E0200EAAA22 /* Hallendale Beach */ = {
 			isa = PBXGroup;
 			children = (
-				ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */,
-				ACF4717F1CFE1E0200EAAA22 /* ViewController.swift */,
-				ACF471811CFE1E0200EAAA22 /* Main.storyboard */,
+				ACF471AC1CFE1EA100EAAA22 /* Storyboards */,
+				ACF471AB1CFE1E8000EAAA22 /* Configuration */,
+				ACF471AD1CFE1EC800EAAA22 /* Controllers */,
 				ACF471841CFE1E0200EAAA22 /* Assets.xcassets */,
-				ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */,
-				ACF471891CFE1E0200EAAA22 /* Info.plist */,
+				ACF471B11CFE4D8100EAAA22 /* CellInfo.swift */,
 			);
 			path = "Hallendale Beach";
 			sourceTree = "<group>";
@@ -123,6 +126,33 @@
 				ACF4719F1CFE1E0200EAAA22 /* Info.plist */,
 			);
 			path = "Hallendale BeachUITests";
+			sourceTree = "<group>";
+		};
+		ACF471AB1CFE1E8000EAAA22 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4717D1CFE1E0200EAAA22 /* AppDelegate.swift */,
+				ACF471891CFE1E0200EAAA22 /* Info.plist */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		ACF471AC1CFE1EA100EAAA22 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ACF471811CFE1E0200EAAA22 /* Main.storyboard */,
+				ACF471861CFE1E0200EAAA22 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		ACF471AD1CFE1EC800EAAA22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4717F1CFE1E0200EAAA22 /* LaunchViewController.swift */,
+				ACF471AE1CFE4AC900EAAA22 /* LaunchTableViewCell.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF471801CFE1E0200EAAA22 /* ViewController.swift in Sources */,
+				ACF471801CFE1E0200EAAA22 /* LaunchViewController.swift in Sources */,
+				ACF471B21CFE4D8100EAAA22 /* CellInfo.swift in Sources */,
+				ACF471AF1CFE4AC900EAAA22 /* LaunchTableViewCell.swift in Sources */,
 				ACF4717E1CFE1E0200EAAA22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
