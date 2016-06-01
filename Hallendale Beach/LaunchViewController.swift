@@ -12,6 +12,7 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var cellInfo: NSMutableArray!
     @IBOutlet weak var launchTableView: UITableView!
     @IBOutlet weak var launchWebView: UIWebView!
+    @IBOutlet weak var backButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,7 +59,13 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let request = NSURLRequest(URL: NSURL(string: url)!)
         launchWebView.loadRequest(request)
         launchWebView.hidden = false
+        backButton.hidden = false
         self.view.bringSubviewToFront(launchWebView)
+    }
+    
+    @IBAction func closeWebView() {
+        launchWebView.hidden = true
+        backButton.hidden = true
     }
 }
 
