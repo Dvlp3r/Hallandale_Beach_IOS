@@ -105,14 +105,22 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <webView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-HY-0Zb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="siT-5F-Qzb" firstAttribute="top" secondItem="pLK-hc-LYi" secondAttribute="bottom" id="3ah-fD-wpU"/>
                             <constraint firstItem="Oe5-am-bcc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Fr-9v-53e"/>
+                            <constraint firstAttribute="trailing" secondItem="SMn-HY-0Zb" secondAttribute="trailing" id="6Ge-Do-rB5"/>
                             <constraint firstItem="pLK-hc-LYi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="HGB-MQ-nb9"/>
                             <constraint firstAttribute="trailing" secondItem="pLK-hc-LYi" secondAttribute="trailing" id="IlY-ZJ-rEi"/>
+                            <constraint firstItem="SMn-HY-0Zb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NXY-kp-KeT"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Oe5-am-bcc" secondAttribute="bottom" id="O8C-6N-ghW"/>
+                            <constraint firstItem="SMn-HY-0Zb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OYk-W0-pz1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SMn-HY-0Zb" secondAttribute="bottom" id="PDD-YZ-Sqd"/>
                             <constraint firstItem="Oe5-am-bcc" firstAttribute="top" secondItem="siT-5F-Qzb" secondAttribute="bottom" id="QsA-co-dfK"/>
                             <constraint firstAttribute="trailing" secondItem="siT-5F-Qzb" secondAttribute="trailing" id="RPF-it-coC"/>
                             <constraint firstItem="siT-5F-Qzb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W6n-LX-1M5"/>
@@ -122,6 +130,7 @@
                     </view>
                     <connections>
                         <outlet property="launchTableView" destination="Oe5-am-bcc" id="adS-xj-P1d"/>
+                        <outlet property="launchWebView" destination="SMn-HY-0Zb" id="2rO-6E-nSl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

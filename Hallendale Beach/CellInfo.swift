@@ -12,10 +12,12 @@ class CellInfo {
     let iconText: String!
     let titleText: String!
     let descriptionText: String!
+    let webURL: String!
     
-    init(initIconText: String, initTitleText: String, initDescriptionText: String) {
+    init(initIconText: String, initTitleText: String, initDescriptionText: String, initWebURL: String) {
         iconText = initIconText
         titleText = initTitleText
         descriptionText = initDescriptionText
+        webURL = initWebURL
     }
 }

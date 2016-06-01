@@ -11,17 +11,18 @@ import UIKit
 class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var cellInfo: NSMutableArray!
     @IBOutlet weak var launchTableView: UITableView!
+    @IBOutlet weak var launchWebView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         cellInfo = NSMutableArray()
         
-        cellInfo.addObject(CellInfo(initIconText: "icon-newspaper", initTitleText: "Public Records", initDescriptionText: "Text sentence here"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-chatbubbles", initTitleText: "Public Comments", initDescriptionText: "Text sentence here"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-guestbook", initTitleText: "Visitor Tracker", initDescriptionText: "This app allows visitors to register their visits with City Officials"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-calendar", initTitleText: "Calendar", initDescriptionText: "Find out what's happening in Hallandale Beach!"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-info", initTitleText: "About Us", initDescriptionText: "Learn more about Hallandale Beach"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-newspaper", initTitleText: "Public Records", initDescriptionText: "Text sentence here", initWebURL: "https://hbeach.formstack.com/forms/publicrecordsrequest"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-chatbubbles", initTitleText: "Public Comments", initDescriptionText: "Text sentence here", initWebURL: "https://hbeach.formstack.com/forms/publicparticipation"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-guestbook", initTitleText: "Visitor Tracker", initDescriptionText: "This app allows visitors to register their visits with City Officials", initWebURL: "http://www.cohb.org/visit"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-calendar", initTitleText: "Calendar", initDescriptionText: "Find out what's happening in Hallandale Beach!", initWebURL: "http://www.cohb.org/index.aspx?NID=226"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-info", initTitleText: "About Us", initDescriptionText: "Learn more about Hallandale Beach", initWebURL: "http://www.cohb.org/index.aspx?NID=16"))
         
         launchTableView.delegate = self
         launchTableView.dataSource = self
@@ -51,7 +52,13 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let curInfo = cellInfo.objectAtIndex(indexPath.row) as! CellInfo
         
+        let url = curInfo.webURL
+        let request = NSURLRequest(URL: NSURL(string: url)!)
+        launchWebView.loadRequest(request)
+        launchWebView.hidden = false
+        self.view.bringSubviewToFront(launchWebView)
     }
 }
 
