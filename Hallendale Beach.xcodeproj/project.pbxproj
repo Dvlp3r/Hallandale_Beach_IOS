@@ -514,6 +514,7 @@
 				ACF471A41CFE1E0200EAAA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF471A51CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				ACF471A71CFE1E0200EAAA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACF471A81CFE1E0200EAAA22 /* Build configuration list for PBXNativeTarget "Hallendale BeachUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				ACF471AA1CFE1E0200EAAA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
