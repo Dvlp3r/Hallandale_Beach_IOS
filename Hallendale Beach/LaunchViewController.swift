@@ -19,11 +19,11 @@ class LaunchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cellInfo = NSMutableArray()
         
-        cellInfo.addObject(CellInfo(initIconText: "icon-newspaper", initTitleText: "Public Records", initDescriptionText: "Text sentence here", initWebURL: "https://hbeach.formstack.com/forms/publicrecordsrequest"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-chatbubbles", initTitleText: "Public Comments", initDescriptionText: "Text sentence here", initWebURL: "https://hbeach.formstack.com/forms/publicparticipation"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-guestbook", initTitleText: "Visitor Tracker", initDescriptionText: "This app allows visitors to register their visits with City Officials", initWebURL: "http://www.cohb.org/visit"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-calendar", initTitleText: "Calendar", initDescriptionText: "Find out what's happening in Hallandale Beach!", initWebURL: "http://www.cohb.org/index.aspx?NID=226"))
-        cellInfo.addObject(CellInfo(initIconText: "icon-info", initTitleText: "About Us", initDescriptionText: "Learn more about Hallandale Beach", initWebURL: "http://www.cohb.org/index.aspx?NID=16"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-newspaper", initTitleText: "Public Records", initDescriptionText: "Submit a Public Records Request (Please note this is not a requirement).", initWebURL: "https://hbeach.formstack.com/forms/publicrecordsrequest"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-chatbubbles", initTitleText: "Public Comments", initDescriptionText: "Sign up to speak at the next Commission meeting.", initWebURL: "https://hbeach.formstack.com/forms/publicparticipation"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-guestbook", initTitleText: "Visitor Tracker", initDescriptionText: "This app allows visitors to register their visits with City Officials.", initWebURL: "http://www.cohb.org/visit"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-calendar", initTitleText: "Calendar", initDescriptionText: "View upcoming meeting details/agendas.", initWebURL: "http://www.cohb.org/index.aspx?NID=226"))
+        cellInfo.addObject(CellInfo(initIconText: "icon-info", initTitleText: "About Us", initDescriptionText: "Learn more about Hallandale Beach.", initWebURL: "http://www.cohb.org/index.aspx?NID=16"))
         
         launchTableView.delegate = self
         launchTableView.dataSource = self
